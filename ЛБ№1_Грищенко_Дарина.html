@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота </title>
+</head>
+<body>
+
+    <!-- Заголовок сторінки -->
+    <table width="100%" border="1">
+        <tr>
+            <td colspan="2">
+                <h1>Лабораторна робота №1 Грищенко Дарина КІУКІ-22-3</h1>
+            </td>
+        </tr>
+
+        <!-- Ліва колонка (меню або навігація) -->
+        <tr>
+            <td width="25%" valign="top">
+                <h3>Навігація</h3>
+                <ul>
+                    <li><a href="#form">Реєстрація</a></li>
+                    <li><a href="#table">Таблиця успішності</a></li>
+                    <li><a href="#banner">Університет</a></li>
+                </ul>
+            </td>
+
+            <!-- Основний контент -->
+            <td width="75%" valign="top">
+
+                <!-- Оформлений текст -->
+                <h2>Основна тригонометрична тотожність</h2>
+                <p><strong>cos²α + sin²α = 1</strong></p>
+                <p>Приклад суворої нерівності: <em>α &lt; β</em>.</p>
+                <p>Нестрога нерівність <sub>α ≤ β</sub> означає, що або <sup>α &lt; β</sup>, або <sup>α = β</sup>.</p>
+
+                <!-- Дворівневий список -->
+                <h2>Питання з варіантами відповідей</h2>
+                <ul>
+                    <li>1 Яка країна виграла Чемпіонат світу з футболу 2018 року?
+                        <ul>
+                            <li>Бразилія</li>
+                            <li>Німеччина</li>
+                            <li>Франція</li>
+                        </ul>
+                    </li>
+                    <li>2 Скільки гравців на полі у кожній команді під час футбольного матчу
+                        <ul>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>22</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Таблиця успішності -->
+                <h2 id="table">Таблиця успішності студентів</h2>
+                <table border="1" width="100%">
+                    <tr>
+                        <th>Ім'я студента</th>
+                        <th>Internet-технології</th>
+                        <th>Архітектура комп'ютерів</th>
+                        <th>Функціональне програмування</th>
+                    </tr>
+                    <tr>
+                        <td> Данило Індіченко</td>
+                        <td>85</td>
+                        <td>78</td>
+                        <td>89</td>
+                    </tr>
+                    <tr>
+                        <td> Ганна Горбунова</td>
+                        <td>80</td>
+                        <td>65</td>
+                        <td>78</td>
+                    </tr>
+                    <tr>
+                        <td>Софія Леднік</td>
+                        <td>74</td>
+                        <td>86</td>
+                        <td>79</td>
+                    </tr>
+                </table>
+
+                <!-- Форма реєстрації -->
+                <h2 id="form">Форма реєстрації</h2>
+                <form action="#" method="post">
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="gender">Стать:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Чоловік</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Жінка</label><br><br>
+
+                    <label for="comment">Коментар:</label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+
+                    <input type="submit" value="Зареєструватися">
+                </form>
+
+                <!-- Банер-зображення -->
+                <h2 id="banner">Офіційний сайт університету:</h2>
+                <a href="https://nure.ua/">
+                    <img src="https://mykharkov.info/wp-content/uploads/2015/03/slide-img2.png" alt="Банер університету">
+                </a>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
